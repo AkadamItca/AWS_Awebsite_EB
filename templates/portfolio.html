@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predictive Maintenance</title>
+	<link rel="stylesheet" href="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/CSS/style.css"/>
+<style>
+body{
+   background-image:url(https://zappa-q8s9hsqwq.s3.amazonaws.com/static/img/isza4.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  position: absolute;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  border-style: ridge;
+  border-width: medium;
+}
+</style>
+</head>
+<body>
+
+<div class="content">
+	<a href="https://www.isuzucv.com/en/index"><img src="static/img/iszaLogo.png" alt=""></a>
+	<h1>Predictive Maintenance</h1>
+</div>
+<section class="col-md-4 col-sm-6" style="background-color: green;">
+  {% for image in image_list %}
+
+    <img src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/SensorPlots/{{image}}" alt="">
+     <!-- <a href="/static/SensorPlots/{{ image }}">{{ image }}</a>>-->
+
+  {% endfor %}
+  </section>
+  	<!--FOOTER AREA-->
+	<div class="footer-area dark-bg">
+		<div class="footer-area-bg"></div>
+		<div class="footer-bottom-area wow fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-lg-3 col-sm-6 col-xs-12">
+                        <div class="single-footer-widget footer-about">
+                            <a name="name_of_target"><h3>Contact Information</h3></a>
+                                <ul>
+                                    <li><i class="fa fa-phone"></i>  +1734-455-7595</li>
+                                    <li><i class="fa-envelope"></i> <a href="mailto:info@isuzutechcenter.com">info@isuzutechcenter.com</a></li>
+                                    <li><i class="fa fa-map-marker"></i> Isuzu Technical Center of America,Inc.<br>
+                                                                         46401 Commerce Center Drive <br>
+                                                                         Plymouth, MI 48170</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!--FOOTER AREA END-->
+<!--====== SCRIPTS JS ======-->
+
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/vendor/bootstrap.min.js"></script>
+
+<!--====== PLUGINS JS ====== -->
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/vendor/jquery.easing.1.3.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/vendor/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/vendor/jquery.appear.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/owl.carousel.min.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/stellar.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/wow.min.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/stellarnav.min.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/contact-form.js"></script>
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/jquery.sticky.js"></script>
+
+<!--===== ACTIVE JS===== -->
+<script src="https://zappa-q8s9hsqwq.s3.amazonaws.com/static/js/main.js"></script>
+
+</body>
+</html>
